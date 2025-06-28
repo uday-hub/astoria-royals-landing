@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astoria Royals Landing Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav class="navbar bg-none position-absolute top-0 w-100 z-3">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Left: Logo -->
+        <a class="navbar-brand mb-0" href="#">
+          <img
+            src="assets/images/logo-and-rera/C-1226-Astoria-Royals-Landing-Page-v2.png"
+            alt="Logo"
+            width="300"
+            class="img-fluid"
+          />
+        </a>
+
+        <!-- Right: Button + Burger Icon (aligned in one row) -->
+        <div class="d-flex align-items-center gap-2 gap-md-4 flex-shrink-0">
+          <!-- Button (small size for mobile) -->
+          <a
+            href="#"
+            class="btn btn-transparent schedule-btn border rounded-0 btn-md text-uppercase"
+            >Schedule a Site Visit</a
+          >
+
+          <!-- Burger Icon -->
+          <button
+            class="navbar-toggler btn-lg border-0 bg-transparent p-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <img
+              src="assets/images/logo-and-rera/footer-2.png"
+              width="28"
+              alt="Menu"
+            />
+          </button>
+        </div>
+      </div>
+
+      <!-- Collapsible Nav (optional) -->
+      <div
+        class="collapse navbar-collapse justify-content-end mt-2"
+        id="navbarNav"
+      >
+        <!-- <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Example Link</a>
+          </li>
+        </ul> -->
+      </div>
+    </nav>
+
+    <!-- Home Banner Section -->
+    <!-- Slider (Carousel) -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img
+            src="assets/images/Desktop/C-1226-Astoria-Royals-Landing-Page-v2.png"
+            class="d-block w-100"
+            alt="Slide 1"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="assets/images/Desktop/banner-2.png"
+            class="d-block w-100"
+            alt="Slide 2"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="assets/images/Desktop/banner-3.png"
+            class="d-block w-100"
+            alt="Slide 3"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Home Banner Section end -->
+
+    <!-- About Section -->
+
+    <section class="container paddding-top-bottom pb-0">
+      <div class="section-container">
+        <div class="left-block">
+          <h1>
+            Where<br />
+            prestige<br />
+            takes<br />
+            residence
+          </h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="right-block">
+          <p>
+            Royal living is reimagined as Astoria Royals, a luxurious project of
+            spacious 4 & 3 BHK homes. Thoughtful layout and optimal use of space
+            are not the only defining attributes of this gem of a residence; it
+            also boasts a massive array of amenities. Tucked in a
+            fast-developing location and constructed with precision in mind to
+            bring to you a lifestyle that resonates with the name of the project
+            itself.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section end -->
+
+    <!-- Form Section -->
+
+    <div class="container lead-form-section">
+      <div class="row g-2">
+        <!-- Left Column: Form -->
+        <div class="col-md-6 order-2 order-md-1 d-flex justify-content-center">
+          <div class="form-box w-100">
+            <h2>
+              THE SUITE LIFE UPGRADE<br />YOU'VE BEEN WAITING<br />FOR IS HERE
+            </h2>
+
+            <form id="leadForm">
+              <div class="mb-3">
+                <label class="form-label">Name*</label>
+                <input type="text" name="name" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email*</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Phone Number*</label>
+                <input type="tel" name="phone" class="form-control" required />
+              </div>
+              <div
+                class="w-100 d-flex justify-content-center align-items-center"
+              >
+                <button type="submit" class="btn btn-gold px-5 py-2 fs-4">
+                  KNOW MORE
+                </button>
+              </div>
+              <div class="form-note">
+                *T&C Apply<br />
+                *Your privacy is very important to us; <br />
+                we will never share your information.
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right Column: Image -->
+        <div class="col-md-6 order-1 order-md-2 form-image">
+          <img src="assets/images/Desktop/baneer-4.png" alt="Building" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Form Section End -->
+
+    <!-- Youtube section -->
+
+    <section class="video-section container">
+      <h2>Walkthrough</h2>
+
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/D0UnqGm_miA"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <!-- Youtube section end -->
+
+    <!-- About Section second -->
+
+    <section class="container paddding-top-bottom pb-0">
+      <div class="section-container">
+        <div class="left-block">
+          <h1>
+            A stellar<br />
+            lineup<br />
+            of luxuries
+          </h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="right-block">
+          <p>
+            Luxury isn't a label at Astoria Royals, it is a full-blown
+            experience. From indulgent leisure spaces and wellness facilities to
+            top-tier entertainment, every amenity is designed to surpass
+            expectations. Whatever you desire, chances are, it’s already waiting
+            for you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section second end -->
+
+    <!-- Slider  -->
+    <!-- Swiper -->
+    <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/Desktop/2149661432.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Desktop/2149661456.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Desktop/4520.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Desktop/2149661456.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Desktop/4520.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- Slider End -->
+
+    <!-- Youtube section second-->
+
+    <section class="video-section container">
+      <h2>Sample Flat</h2>
+
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/D0UnqGm_miA"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <!-- Youtube section second end -->
+
+    <!-- About Section third -->
+
+    <section class="container paddding-top-bottom pb-0">
+      <div class="section-container">
+        <div class="left-block">
+          <h1>
+            A landmark<br />
+            destination for<br />
+            elevated<br />
+            living
+          </h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="right-block">
+          <p>
+            Ravet is where Pune's future is unfolding. Tucked between the
+            Pune-Mumbai Expressway and the Katraj-Dehu Bypass, this rapidly
+            developing suburban neighbourhood connects you to wherever you want
+            to be without the usual hassle. It owes its incredible connectivity
+            to the old and new Mumbai highways, the Aundh-Ravet BRTS road, and
+            Akurdi Railway Station. Top schools, business hubs, entertainment
+            enclaves, healthcare facilities and other essentials are all within
+            close proximity. This isn't just a convenient location, but a smart
+            one.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section third end -->
+
+    <!-- Map section -->
+    <section class="map-section container paddding-top-bottom">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.108423270587!2d73.73264777496648!3d18.65912998246154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b0a7f17e5fa1%3A0x3683018153dcaf90!2sAstoria%20Royals!5e0!3m2!1sen!2sus!4v1751105392622!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          width="100%"
+          height="600px"
+        >
+        </iframe>
+      </div>
+
+      <div class="map-location-btn">
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=Magarpatta+City,+Pune"
+          target="_blank"
+          class="direction-button"
+        >
+          <img src="assets/images/icons/google-maps.png" alt="Map Icon" />
+          CLICK HERE TO GET DIRECTIONS
+        </a>
+      </div>
+    </section>
+
+    <!-- Map section end -->
+
+    <!-- About Section fourth -->
+
+    <section class="container paddding-top-bottom About-Section-fourth">
+      <div class="section-container">
+        <div class="left-block">
+          <h1>From the trusted<br /></h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="right-block crop-logo">
+          <img
+            src="assets/images/logo-and-rera/crop-version.png"
+            class="p-3"
+            alt=""
+          />
+          <p>
+            Nirman Greens is a dynamic force in Pune's real estate sector with
+            30+ years of expertise. With 15 million square feet delivered and
+            even more in the pipeline, every project they undertake is a
+            testament to masterful craftsmanship and a relentless pursuit for
+            excellence. Driven by innovation and an eye for detail, they remain
+            steadfast in their commitment to conceiving spaces that adapt to
+            nature and evolve with time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section fourth end -->
+
+    <!-- FAQ section -->
+    <div class="container py-5">
+      <h2 class="text-center faq-heading mb-5">Key Distances</h2>
+
+      <div class="accordion" id="keyDistancesAccordion">
+        <!-- CONNECTIVITY -->
+        <div class="accordion-item custom-border">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-header"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#connectivity"
+              aria-expanded="true"
+              aria-controls="connectivity"
+            >
+              CONNECTIVITY
+            </button>
+          </h2>
+          <div
+            id="connectivity"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#keyDistancesAccordion"
+          >
+            <div class="accordion-body">
+              <div class="d-flex justify-content-between py-2">
+                <span>Mumbai-Pune Expressway</span><span>05 Mins.</span>
+              </div>
+              <div class="d-flex justify-content-between py-2">
+                <span>Hinjawadi connectivity</span><span>20 Mins.</span>
+              </div>
+              <div class="d-flex justify-content-between py-2">
+                <span>Balewadi High Street</span><span>30 Mins.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LEISURE -->
+        <div class="accordion-item custom-border">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-header"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#leisure"
+              aria-expanded="false"
+              aria-controls="leisure"
+            >
+              LEISURE
+            </button>
+          </h2>
+          <div
+            id="leisure"
+            class="accordion-collapse collapse"
+            data-bs-parent="#keyDistancesAccordion"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              accusantium?
+            </div>
+          </div>
+        </div>
+
+        <!-- SHOPPING / MALLS -->
+        <div class="accordion-item custom-border">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-header"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#shopping"
+              aria-expanded="false"
+              aria-controls="shopping"
+            >
+              SHOPPING/ MALLS
+            </button>
+          </h2>
+          <div
+            id="shopping"
+            class="accordion-collapse collapse"
+            data-bs-parent="#keyDistancesAccordion"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              accusantium?
+            </div>
+          </div>
+        </div>
+
+        <!-- EDUCATIONAL INSTITUTES -->
+        <div class="accordion-item custom-border">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-header"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#education"
+              aria-expanded="false"
+              aria-controls="education"
+            >
+              EDUCATIONAL INSTITUTES
+            </button>
+          </h2>
+          <div
+            id="education"
+            class="accordion-collapse collapse"
+            data-bs-parent="#keyDistancesAccordion"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              accusantium?
+            </div>
+          </div>
+        </div>
+
+        <!-- HEALTHCARE -->
+        <div class="accordion-item custom-border">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed custom-header"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#healthcare"
+              aria-expanded="false"
+              aria-controls="healthcare"
+            >
+              HEALTHCARE
+            </button>
+          </h2>
+          <div
+            id="healthcare"
+            class="accordion-collapse collapse"
+            data-bs-parent="#keyDistancesAccordion"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              accusantium?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQ section end -->
+
+    <!-- Footer  -->
+    <footer class="footer-section text-white">
+      <div class="container py-4">
+        <div class="row align-items-center text-center text-md-start">
+          <!-- Left: Logos -->
+          <div class="col-lg-4 col-md-12 col-12 mb-4 mb-md-0">
+            <img
+              src="assets/images/logo-and-rera/C-1226-Astoria-Royals-Landing-Page-v2.png"
+              alt="Astoria Royals Logo"
+              class="mb-2"
+              width="350"
+            />
+          </div>
+
+          <!-- Middle: Address -->
+          <div
+            class="col-lg-5 col-md-6 col-12 text-center border-start border-end border-line py-3 px-md-4 mb-4 mb-md-0"
+          >
+            <div class="text-uppercase small fw-bold text-white">
+              Site Address
+            </div>
+            <p class="mb-2 small">
+              Astoria Royals, Aundh-Ravet BRTS Road, Ravet, Pimpri-Chinchwad,<br />Maharashtra
+              - 412101
+            </p>
+
+            <div class="text-uppercase small fw-bold text-white">
+              Corporate Office
+            </div>
+            <p class="mb-0 small">
+              Amar Business Zone, B Wing, Office No. 902 S. No. 87/1A & 87
+              (Part),<br />Baner, Pune - 411045
+            </p>
+          </div>
+
+          <!-- Right: Contact + QR -->
+          <div class="col-lg-3 col-md-6 col-12 text-center">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <span class="me-2 fs-5 bg-white rounded-pill">📞</span>
+              <span class="fs-3">00000 00000</span>
+            </div>
+
+            <div class="d-flex gap-3 justify-content-center mb-2">
+              <img src="assets/images/logo-and-rera/rera.png" alt="QR Code 1" />
+            </div>
+
+            <div class="social-icons d-flex justify-content-center gap-3">
+              <img src="assets/images/icons/1.png" width="30" alt="" />
+              <img src="assets/images/icons/2.png" width="30" alt="" />
+              <img src="assets/images/icons/3.png" width="30" alt="" />
+              <img src="assets/images/icons/4.png" width="30" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Swiper JS -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: "2.5",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+    <script>
+      document
+        .getElementById("leadForm")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          const form = e.target;
+          const data = {
+            name: form.name.value,
+            email: form.email.value,
+            phone: form.phone.value,
+          };
+
+          try {
+            const response = await fetch("/api/submit-lead", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+              alert("✅ " + result.message);
+              form.reset();
+            } else {
+              alert("❌ Error: " + result.message);
+            }
+          } catch (err) {
+            alert("⚠️ Something went wrong. Please try again later.");
+            console.error(err);
+          }
+        });
+    </script>
+  </body>
+</html>
